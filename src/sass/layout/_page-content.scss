@@ -1,0 +1,23 @@
+.page-content {
+  position: relative;
+}
+
+.page-main {
+  @media (min-width: 768px) {
+    padding-left: 210px;
+  }
+}
+
+.page-sidebar {
+  padding: 12px;
+
+  @media (min-width: 768px) {
+    position: fixed;
+    padding-top: 57px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-right: 1px solid #eee;
+    width: 210px;
+  }
+}

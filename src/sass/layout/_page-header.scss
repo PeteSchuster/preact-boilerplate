@@ -1,0 +1,32 @@
+.page-header {
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  z-index: 10;
+
+  a {
+    color: #fff;
+  }
+}
+
+.page-header__wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.page-header__content {
+  position: relative;
+}
+
+.page-header__logo-wrap {
+  padding: 10px 0;
+  text-align: center;
+
+}
+
+.page-header__logo {
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  height: 25px;
+}

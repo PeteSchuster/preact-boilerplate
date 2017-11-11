@@ -1,8 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import { render } from 'react-dom'
+import { HashRouter as Router } from 'react-router-dom'
+import Root from './containers/Root'
+import configureStore from './store/configureStore'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+require('./sass/style.scss');
+
+const store = configureStore();
+
+render(
+  <Router>
+    <Root store={store} />
+  </Router>,
+  document.getElementById('root')
+)
