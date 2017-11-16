@@ -29,4 +29,9 @@
   margin: 0 auto;
   width: 70px;
   height: 25px;
+
+  svg {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
